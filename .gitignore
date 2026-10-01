@@ -1,6 +1,12 @@
-.venv/
+# env & secrets
 .env
+# venv anywhere
+.venv/
+**/.venv/
+# python
 __pycache__/
 *.pyc
+*.pyo
+# uv
 uv.lock
 .python-version
